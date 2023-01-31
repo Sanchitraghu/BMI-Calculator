@@ -1,0 +1,48 @@
+body{
+    background-color: #F5F5F5;
+    align-items: center;
+}
+h1{
+    text-align: center;
+
+}
+p{
+     position: relative;
+     text-align: center;
+     size: 200px;
+}
+.heiwei .lab{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    position: relative;
+    
+    margin:20px 1000px 20px 670px;
+}
+
+.btn{
+    width: 100px;
+    height: 22px;
+    background-color: #BFACE2;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    margin:20px 1000px 20px 720px;
+}
+
+.btn:hover{
+   transition: 1s;
+    transform: scale(1.25);
+}
+.btn:not(:hover){
+    transition: 1s;
+     transform: scale(1);
+
+}
+
+footer{
+    text-align: center;
+}
